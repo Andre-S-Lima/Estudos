@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Login</title>
+    <style>
+
+        body{
+            background-image: radial-gradient(rgb(40, 0, 78), 70%, 
+                                            rgba(0, 0, 0, 0.877));
+        }
+
+        div#interface{
+            position: absolute;
+            left: 400px;
+            top: 120px;
+            width: 500px;
+            height: 400px;
+            background-color: rgba(0, 1, 31, 0.911);
+            border-radius: 40px 10px;
+        }
+
+        div > h1{
+            font-family: calibri;
+            position: relative;
+            top: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        div p{
+            color: white;
+            font-family: calibri;
+            font-weight: bolder;
+            margin: 7px;
+        }
+
+        div#nome{
+            position: relative;
+            left: 90px;
+            top: 20px;
+        }
+
+        div#senha{
+            position: relative;
+            left: 90px;
+            top: 30px;
+        }
+
+        .input{
+            color: #979797;
+            width: 300px;
+            height: 25px;
+            border: 1px solid orange;
+            border-radius: 20px;
+            background-color: rgba(0, 1, 31, 0.815);
+            padding: 5px;
+        }
+
+        div#entrar{
+            position: relative;
+            left: 170px;
+            top: 70px;
+        }
+
+        input#botao{
+            width: 140px;
+            height: 30px;
+            background-color: rgb(253, 110, 15);
+            border: 2px solid rgb(253, 110, 15);
+            border-radius: 30px;
+        }
+
+        p#forgot{
+            position: relative;
+            bottom: -80px;
+            left: 330px;
+            text-decoration: underline;
+        }
+
+        a{
+            color: white;
+        }
+
+        footer{
+            position: absolute;
+            top: 560px;
+            left: 470px;
+            text-align: center;
+            font-family: calibri;
+            color: white;
+        }
+        footer h2, h3{
+            margin: 2px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="interface">
+        <h1>Tela de login</h1>
+        <div id="nome">
+            <p>Nome de usuário</p>
+            <input type="text" class="input" id='nomeI'>
+        </div>
+
+        <div id="senha">
+            <p>Senha</p>
+            <input type="password" class="input" id='senhaI'>
+        </div>
+        
+        <div id="entrar">
+            <input type="button" value="Entrar" id="botao">
+        </div>
+
+        <p id="forgot"><a href="">Esqueci a senha</a></p>
+    </div>
+
+    <!--<footer>
+        <h2>Página feito meramente para estudos</h2>
+        <h3>André Lima</h3>
+    </footer>-->
+</body>
+</html>
