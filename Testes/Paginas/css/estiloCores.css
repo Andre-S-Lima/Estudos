@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    background-color: rgb(193, 126, 255);
+}
+.interface{
+    background-color: grey;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#quadrado{
+    background-color: white;
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#divButton{
+    margin: 10px 150px 0px 150px;
+}
+button{
+    font-family: calibri;
+    color: white;
+    font-weight: bolder;
+    background-color:rgb(255, 42, 27);
+    width: 100px;
+    height: 20px;
+    border-radius: 30px;
+
+}
+#inCores{
+    display: none;
+    width: fit-content;
+    margin: auto;
+    background-color: rgb(116, 116, 116);
+    border-radius: 10px;
+}
+#inCores > h1{
+    font-family: calibri;
+    text-align: center;
+    color: rgb(212, 212, 212);
+    margin-bottom: 2px;
+}
+.cores{
+    width: fit-content;
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: repeat(4, 100px);
+}
+
+.indi{
+    margin: 10px 0px 20px 15px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+#red{
+    background-color: red;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#green{
+    background-color: green;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#black{
+    background-color: black;
+}
+
+#orange{
+    background-color: orange;
+}
+
+#purple{
+    background-color: purple;
+}
+
+#pink{
+    background-color: pink;
+}
+
+#brown{
+    background-color: brown;
+}
+
+#white{
+    background-color: white;
+}
